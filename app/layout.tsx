@@ -30,8 +30,9 @@ export default function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark" 
-          enableSystem={true} 
+          defaultTheme="dark" // Sets the default theme to 'dark' (dark mode) when the page is first loaded.
+          enableSystem={true}  // Enables system preference for the theme. 
+          // If the user has selected dark mode in their system, the page will automatically switch to dark mode.
           disableTransitionOnChange={true}
         >
           {children}
