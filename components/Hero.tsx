@@ -1,4 +1,5 @@
 import { Spotlight } from './ui/Spotlight'
+import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
 const Hero = () => {
   return (
@@ -18,7 +19,13 @@ const Hero = () => {
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60] flex flex-col items-center'>
             {/* Title text */}
             <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Create Dynamic Experiences with Next.js</h2>
-
+            <TextGenerateEffect
+                className="text-center text-[40px] md:text-5xl lg:text-6xl"
+                words="Turning Innovative Ideas into Captivating Digital Solutions"
+            />
+            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+              Hi,I&apos;m Shams, a FrontEnd Developer based in Azerbaijan.
+            </p>
           </div>
         </div>
     </div>
